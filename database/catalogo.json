@@ -1,0 +1,33 @@
+[ { "codigo": 1, 
+    "titulo": "Titanic" ,
+    "duracao": 3.25,
+    "atores": ["Leonardo DiCaprio","Kate Winslet", "Billy Zane","Kathy Bates"],
+    "anoDeLancamento": 1997,
+    "emCartaz": false },
+  
+{ "codigo": 2,
+  "titulo": "Jardim Secreto",
+  "duracao": 1.68,
+  "atores": ["Kate Maberl", "Maggie Smith","John Lynch"],
+  "anoDeLancamento": 1993,
+  "emCartaz": true } ,
+
+  {   "codigo": 3,  
+    "anoDeLancamento": 2009,
+    "titulo": "Avatar",
+    "atores": ["Zoe Saldaña","Sam Worthington","Sigourney Weaver",
+    "Michelle Rodriguez"],
+    "duracao": 1.4,
+    "emCartaz": false},
+
+{   
+    "codigo": 4,
+    "anoDeLancamento":2019,
+    "titulo": "Vingadores Ultimato",
+    "duracao":3,
+    "atores":["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo"],
+    "emCartaz": true        
+}
+
+  
+    ]
