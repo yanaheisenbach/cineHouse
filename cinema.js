@@ -2,19 +2,6 @@ let cinema = "CineHouse"
 
 let catalogo = require("./database/catalogo.json")
 
-// Definindo função de adicionar filme 
-function adicionarFilme (codigoFilme, tituloFilme, duracaoFilme, atoresFilme, anoDeLancamentoFilme, emCartazFilme){
-  let novoFilme= {
-    codigo: codigoFilme,
-    titulo: tituloFilme,
-    duracao: duracaoFilme,
-    atores: atoresFilme,
-    anaDeLançamento: anoDeLancamentoFilme,
-    emCartaz: emCartazFilme
-
-  }
-   return catalogo.push(newFilme)
-}
 
 // Função deve buscar o filme pelo filme.código, vamos usar o método find()
 function buscarFilme (codigoFilme){
